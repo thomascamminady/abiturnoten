@@ -6,6 +6,13 @@ authors = ["Thomas Camminady <0milieux_member@icloud.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pandas = "^2.0.2"
+xlrd = "^2.0.1"
+openpyxl = "^3.1.2"
+polars = "^0.18.3"
+altair = "^5.0.1"
+pyarrow = "^12.0.1"
+camminapy = "^1.1.0"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.0.1"
